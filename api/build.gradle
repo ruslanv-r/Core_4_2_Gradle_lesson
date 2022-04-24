@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+}
+
+group 'org.ruslan'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation project(":db")
+    implementation project(":service")
+}
+
+dependencies {
+    implementation project(":db")
+    implementation project(":service")
+}
